@@ -32,7 +32,7 @@ extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! FlagCell
         cell.configureCell(country: countries[indexPath.row])
-        return UITableViewCell()
+        return cell
     }
 
 }
