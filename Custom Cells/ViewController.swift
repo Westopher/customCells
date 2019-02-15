@@ -8,8 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, DataService {
 
+    var countries = [Country]()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        countries = createCountries()!
+        
+        for i in countries {
+            print(i.name)
+        }
+    }
 
 }
 
