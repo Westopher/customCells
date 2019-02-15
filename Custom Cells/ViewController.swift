@@ -26,11 +26,13 @@ class ViewController: UIViewController, DataService {
 extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return countries.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! FlagCell
+        cell.configureCell(country: countries[indexPath.row])
         return UITableViewCell()
     }
-    
+
 }

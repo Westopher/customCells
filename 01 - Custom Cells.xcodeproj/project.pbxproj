@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DE29E1422175ED8004B8D72 /* FlagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE29E1322175ED8004B8D72 /* FlagCell.swift */; };
 		488676EA1E1D03E00064C0D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488676E91E1D03E00064C0D0 /* AppDelegate.swift */; };
 		488676EC1E1D03E00064C0D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488676EB1E1D03E00064C0D0 /* ViewController.swift */; };
 		488676EF1E1D03E00064C0D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488676ED1E1D03E00064C0D0 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DE29E1322175ED8004B8D72 /* FlagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagCell.swift; sourceTree = "<group>"; };
 		488676E61E1D03E00064C0D0 /* Custom Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Cells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		488676E91E1D03E00064C0D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		488676EB1E1D03E00064C0D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				488676EB1E1D03E00064C0D0 /* ViewController.swift */,
+				3DE29E1322175ED8004B8D72 /* FlagCell.swift */,
 				488676ED1E1D03E00064C0D0 /* Main.storyboard */,
 				4886770A1E1D06220064C0D0 /* FlagAssets.xcassets */,
 				488676FB1E1D03E60064C0D0 /* Other */,
@@ -173,6 +176,7 @@
 			files = (
 				488677051E1D050C0064C0D0 /* Country.swift in Sources */,
 				488676EC1E1D03E00064C0D0 /* ViewController.swift in Sources */,
+				3DE29E1422175ED8004B8D72 /* FlagCell.swift in Sources */,
 				488677081E1D050C0064C0D0 /* Difficulty.swift in Sources */,
 				488676EA1E1D03E00064C0D0 /* AppDelegate.swift in Sources */,
 				488677031E1D050C0064C0D0 /* Continent.swift in Sources */,
